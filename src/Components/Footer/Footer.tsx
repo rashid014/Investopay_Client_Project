@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = () => {
                 in touch</h1>
         </div>
         <div className="flex mt-8 flex-col md:flex-row md:justify-between">
-            <p className="w-full md:w-2/3 text-gray-400">Whether you're looking for expert financial advice, need assistance with loans or insurance, or want to explore partnership opportunities, we're here to help. Contact us now to discover how Investopay can simplify your financial journey</p>
+            <p className="w-full md:w-2/3 text-gray-400">Whether you are looking for expert financial advice, need assistance with loans or insurance, or want to explore partnership opportunities, we are here to help. Contact us now to discover how Investopay can simplify your financial journey</p>
             <div className="w-44 pt-6 md:pt-0">
                 <a className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
             </div>
