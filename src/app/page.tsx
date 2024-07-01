@@ -12,20 +12,23 @@ import VideoCard2 from '../Components/VideoCard2/VideoCard2'
 import InsuranceContainer from '../Components/InsuranceContainer/InsuranceContainer'
 import './globals.css'
 import ParagraphSection from "@/Components/Paragraph1/paragraph";
+import HowItWorks from "@/Components/HowItWorks/howItWorks";
+import SuccessStories from "@/Components/SuccessStories/SucessStories";
 export default function Home() {
   return (
     <>
     <Header /> 
-     <Banner />
+     {/* <Banner /> */}
       <Form />
       <CardService />
       <Writings1/>
      
-      <VideoCard />
+      <ParagraphSection/>
       <LoanContainer />
       <VideoCard2 />
+      <HowItWorks/>
       <InsuranceContainer />
-      <ParagraphSection/>
+     <SuccessStories/>
       {/* <TestimonialsContainer /> */}
       <Footer />
       </>

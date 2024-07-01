@@ -36,7 +36,7 @@ const LoanContainer: React.FC = () => {
     { id: 1, title: "Personal Loan", description: "Explore flexible options for personal expenses.", icon: <MapsHomeWorkIcon style={{ fontSize: 48, color: 'blue' }} /> },
     { id: 2, title: "Business Loan", description: "Fuel your business growth with our business loan.", icon: <BusinessIcon style={{ fontSize: 48, color: 'blue' }} /> },
     { id: 3, title: "Home Loan", description: "Explore our home loan options.", icon: <HomeIcon style={{ fontSize: 48, color: 'blue' }} /> },
-    { id: 4, title: "Loan against Property", description: "Secure your loan against your property.", icon: <LocationCityIcon style={{ fontSize: 48, color: 'blue' }} /> },
+    { id: 4, title: "Property Loan", description: "Secure your loan against your property.", icon: <LocationCityIcon style={{ fontSize: 48, color: 'blue' }} /> },
     { id: 5, title: "Doctors Loan", description: "Tailored loan options for medical professionals.", icon: <LocalHospitalIcon style={{ fontSize: 48, color: 'blue' }} /> },
     { id: 6, title: "Education Loan", description: "Invest in your future with our education loan.", icon: <SchoolIcon style={{ fontSize: 48, color: 'blue' }} /> },
     { id: 7, title: "Vehicle Loan", description: "Finance your vehicle with our loan solutions.", icon: <DirectionsCarIcon style={{ fontSize: 48, color: 'blue' }} /> },
@@ -51,7 +51,7 @@ const LoanContainer: React.FC = () => {
         </h2>
       </div>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-8 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-8 mt-10 ">
         {loanData.map((loan) => (
           <div key={loan.id}>
             <IconCard
