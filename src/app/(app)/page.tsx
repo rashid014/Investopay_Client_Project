@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
     {/* <Header /> */}
-      <Banner />
+      {/* <Banner /> */}
       <Form />
       <CardService />
       <Writings1/>
