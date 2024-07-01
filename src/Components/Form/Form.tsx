@@ -14,7 +14,7 @@ const Form: React.FC<FormProps> = () => {
 
   return (
     <div className="flex flex-wrap justify-center bg-white">
-      <Card title="" style={{ width: 700, backgroundColor: '#fff',marginTop:'50px' }}>
+      <Card className="w-[700px] bg-white lg:mt-48">
         <Image
           src={Front}
           style={{ width: '100%', height: 'auto', maxWidth: '100%', maxHeight: '100%' }}

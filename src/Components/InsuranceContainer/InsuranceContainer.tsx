@@ -13,7 +13,7 @@ interface IconCardProps {
 const IconCard: React.FC<IconCardProps> = ({ icon, title, description }) => {
   return (
     <div
-      className="flex flex-col items-center p-4 rounded-md mx-auto text-center"
+      className="flex flex-col items-center p-4 rounded-md mx-auto text-center bg-white"
       style={{
         maxWidth: '220px',
         width: '100%',

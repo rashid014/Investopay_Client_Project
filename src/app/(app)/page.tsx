@@ -14,8 +14,8 @@ import './globals.css'
 export default function Home() {
   return (
     <>
-    {/* <Header /> */}
-      {/* <Banner /> */}
+    <Header /> 
+     <Banner />
       <Form />
       <CardService />
       <Writings1/>
