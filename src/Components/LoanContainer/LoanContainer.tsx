@@ -47,7 +47,7 @@ const LoanContainer: React.FC = () => {
     <div className="container mx-auto mt-8">
       <div className="flex justify-center md:h-1/4 lg:h-1/3 xl:h-1/2 mt-10">
         <h2 className="text-gray-500 text-3xl font-semibold mb-4">
-          Loan Container
+          Loans
         </h2>
       </div>
       
