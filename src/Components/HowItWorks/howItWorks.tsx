@@ -14,7 +14,7 @@ const HowItWorks: React.FC = () => {
             <Image src={FinancialConsultation} alt="Customer Engagement" className="mx-auto" />
           </div>
           <h3 className="text-xl font-semibold mb-2 text-slate-800 h-16">Customer Engagement</h3>
-          <p className="text-gray-700">Investopay begins by engaging customers to understand their financial needs and goals. Through detailed assessments, they identify suitable loan or insurance products based on the customer's profile, financial situation, and preferences.</p>
+          <p className="text-gray-700">Investopay begins by engaging customers to understand their financial needs and goals. Through detailed assessments, they identify suitable loan or insurance products based on the customer&apos;s profile, financial situation, and preferences.</p>
         </div>
         <div className="text-center p-4 border border-gray-200 rounded-lg shadow-sm">
           <div className="mb-4">
