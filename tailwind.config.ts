@@ -19,6 +19,7 @@ const config: Config = {
         'custom-yellow': '#f59e0b',
         'bgcolor':'#2f4454',
         'cardColour':'#00737E'
+        
       },
     },
   },

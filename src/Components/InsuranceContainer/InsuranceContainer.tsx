@@ -2,6 +2,7 @@ import React from 'react';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
+import LoanImage from '../../../public/assets/loaning.jpg';
 
 interface IconCardProps {
   icon: JSX.Element;
@@ -57,8 +58,14 @@ const LoanContainer: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto mt-8 bg-white h-auto ">
-      <div className="flex justify-center mt-10">
+    <div className="container mx-auto mt-8 bg-white  "
+    style={{
+      backgroundImage: `url(${LoanImage.src})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }}>
+      <div className="flex justify-center mt-4">
         <h2 className="text-gray-500 text-3xl font-semibold mt-4">
           Insurances
         </h2>
