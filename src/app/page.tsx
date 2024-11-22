@@ -17,6 +17,7 @@ import SuccessStories from "@/Components/SuccessStories/SucessStories";
 export default function Home() {
   return (
     <>
+    <div className="bg-white">
     <Header /> 
      {/* <Banner /> */}
       <Form />
@@ -31,6 +32,7 @@ export default function Home() {
      <SuccessStories/>
       {/* <TestimonialsContainer /> */}
       <Footer />
+      </div>
       </>
   );
 }
