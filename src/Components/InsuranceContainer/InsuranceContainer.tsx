@@ -58,7 +58,7 @@ const LoanContainer: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto mt-8 bg-white  "
+    <div className="container mx-auto  mt-8 bg-white h-screen "
     style={{
       backgroundImage: `url(${LoanImage.src})`,
       backgroundSize: 'cover',
@@ -66,7 +66,7 @@ const LoanContainer: React.FC = () => {
       backgroundRepeat: 'no-repeat',
     }}>
       <div className="flex justify-center mt-4">
-        <h2 className="text-gray-500 text-3xl font-semibold mt-4">
+        <h2 className="text-gray-500 text-3xl font-semibold mt-4 ">
           Insurances
         </h2>
       </div>

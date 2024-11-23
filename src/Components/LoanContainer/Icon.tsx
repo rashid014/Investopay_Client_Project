@@ -9,7 +9,7 @@ interface IconCardProps {
 
 const IconCard: React.FC<IconCardProps> = ({ icon, title, description }) => {
   return (
-    <div className="bg-white p-4 rounded-md shadow-md flex items-center">
+    <div className="bg-white p-4 rounded-md shadow-md flex items-center  h-screen">
       <div className="mr-4">{icon}</div>
       <div>
         <h3 className="text-lg font-semibold">{title}</h3>
